@@ -14,12 +14,12 @@ export default siteConfig({
   author: 'York Lin',
 
   // open graph metadata (optional)
-  description: 'York Lin blog',
+  description: "York Lin's blog",
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: 'superj80820',
+  github: 'superj80820',
+  linkedin: 'yorklin',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
