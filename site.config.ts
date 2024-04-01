@@ -26,7 +26,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: "https://i.imgur.com/xwxJeJW.png",
+  defaultPageIcon: "https://note.messfar.com/page-icon.png",
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
@@ -54,7 +54,11 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'About',
+      title: '系統設計',
+      pageId: 'b7a34562dc184ffdb333a7c012346899'
+    },
+    {
+      title: '關於我',
       pageId: '3ddc5a575630411f9bd333def07f1bd7'
     }
   ]
