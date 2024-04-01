@@ -9,12 +9,12 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '還在亂的髒桶子',
+  name: '髒桶子',
   domain: 'note.messfar.com',
   author: 'York Lin',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'York Lin blog',
 
   // social usernames (optional)
   twitter: 'transitive_bs',
@@ -26,7 +26,7 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
+  defaultPageIcon: "https://i.imgur.com/xwxJeJW.png",
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
 
