@@ -54,6 +54,14 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: '文章分類',
+      pageId: 'ff9d8e74fc00469eae1c74af59227d41'
+    },
+    {
+      title: 'Golang 教學',
+      pageId: '9fabdb9d476348f59038e4c2dc8adbf5'
+    },
+    {
       title: '系統設計',
       pageId: 'b7a34562dc184ffdb333a7c012346899'
     },
