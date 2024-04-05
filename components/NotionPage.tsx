@@ -26,6 +26,7 @@ import { NotionPageHeader } from './NotionPageHeader'
 import { Page404 } from './Page404'
 import { PageAside } from './PageAside'
 import { PageHead } from './PageHead'
+import { GiscusComments } from './GiscusComments'
 import styles from './styles.module.css'
 
 // -----------------------------------------------------------------------------
@@ -242,6 +243,14 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
 
+  const comments: React.ReactNode = config.giscusRepo ? GiscusComments({
+    darkMode: isDarkMode,
+    repo: config.giscusRepo,
+    repoId: config.giscusRepoId,
+    category: config.giscusCategory,
+    categoryId: config.giscusCategoryId,
+  }) : null
+
   return (
     <>
       <PageHead
@@ -278,6 +287,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         mapImageUrl={mapImageUrl}
         searchNotion={config.isSearchEnabled ? searchNotion : null}
         pageAside={pageAside}
+        pageFooter={comments}
         footer={footer}
       />
 

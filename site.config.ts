@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'York Lin',
 
   // open graph metadata (optional)
-  description: "York Lin's blog",
+  description: "York Lins's blog",
 
   // social usernames (optional)
   twitter: 'superj80820',
@@ -54,12 +54,16 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: '文章列表',
+      pageId: '67c715e8fba04b04b65a0b56fda01255'
+    },
+    {
       title: '文章分類',
       pageId: 'ff9d8e74fc00469eae1c74af59227d41'
     },
     {
-      title: 'Golang 教學',
-      pageId: '9fabdb9d476348f59038e4c2dc8adbf5'
+      title: 'Golang 設計模式',
+      pageId: '32e28200e2c54ffbb13cf918718f50d6'
     },
     {
       title: '系統設計',
@@ -69,5 +73,10 @@ export default siteConfig({
       title: '關於我',
       pageId: '3ddc5a575630411f9bd333def07f1bd7'
     }
-  ]
+  ],
+
+  giscusRepo: 'superj80820/blog.messfar.com-comments',
+  giscusRepoId: 'R_kgDOLptFXw',
+  giscusCategory: 'Announcements',
+  giscusCategoryId: 'DIC_kwDOLptFX84Cecit'
 })
