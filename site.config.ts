@@ -66,7 +66,7 @@ export default siteConfig({
       pageId: '32e28200e2c54ffbb13cf918718f50d6'
     },
     {
-      title: '系統設計',
+      title: 'Golang 系統設計',
       pageId: 'b7a34562dc184ffdb333a7c012346899'
     },
     {
