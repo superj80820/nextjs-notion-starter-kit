@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '髒桶子',
-  domain: 'note.messfar.com',
+  domain: 'blog.messfar.com',
   author: 'York Lin',
 
   // open graph metadata (optional)
@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: "https://note.messfar.com/page-icon.png",
-  defaultPageCover: "https://note.messfar.com/page-cover.jpg",
+  defaultPageIcon: "https://blog.messfar.com/page-icon.png",
+  defaultPageCover: "https://blog.messfar.com/page-cover.jpg",
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
